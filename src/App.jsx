@@ -1,15 +1,14 @@
 import {} from 'react'
-
+import { Header } from "./component/Header"
 import './App.css'
 
-function App() {
+export default function App() {
  
-
   return (
     <>
-      <h1>Eudis</h1>
+      <Header />
     </>
   )
 }
 
-export default App
+
